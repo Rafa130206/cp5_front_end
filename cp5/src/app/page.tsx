@@ -1,8 +1,9 @@
 
-export default function Home() {
+
+export default function page() {
   return (
-    <div>
-      <h1>Welcome to my home page</h1>
+    <div className="container_paginas">
+      <h1 className="titulo_bem_vindo">Seja Bem-Vindo</h1>
     </div>
   )
 }
